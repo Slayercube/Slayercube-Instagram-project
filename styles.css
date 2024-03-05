@@ -14,25 +14,21 @@ body {
   text-align: center;
   width: 100%;
   height: auto;
-  font-size: small;
   margin: auto;
+  font-size: large;
 }
 
 .box1,
-.box2,
-.box3,
-.box4 {
+.box2 {
   width: 60%;
   height: auto;
-  border: 1px solid rgb(29, 31, 29);
   margin: auto;
-
-  background: whitesmoke;
+  background: rgb(223, 211, 157);
   position: static;
+  margin-top: 3%;
 }
 #image {
   width: 100%;
-
   border: 1px solid black;
 }
 img {
@@ -47,16 +43,11 @@ img {
 .margin {
   margin-right: 58%;
 }
-.box2 {
-  margin-top: 3%;
-}
-.box3 {
-  margin-top: 3%;
-}
-.box4 {
-  margin-top: 3%;
-}
+
 .paddingLeft {
-  padding-left: 54%;
+  padding-left: 55%;
   position: absolute;
+}
+.lowerSide {
+  padding: 5px;
 }
